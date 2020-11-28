@@ -6,8 +6,10 @@ i = 0
    if yield(collection[i])
      return collection[i]
     end
-     
     i = i + 1
   end
 end
 
+
+my_find(collection) {|1| 1 % 3 == 0 and 1 % 5 == 0 }
+end 
